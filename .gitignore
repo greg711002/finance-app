@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+.pnpm-store/
+
+# Database / runtime data (never commit user data)
+*.db
+*.sqlite3
+finance.db
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Temp / local tool state
+.tmp/
+.local/
+.cache/
+
+# Alembic / test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS
+Thumbs.db
+.DS_Store

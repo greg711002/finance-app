@@ -1,0 +1,13 @@
+<svg viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <rect width="192" height="192" rx="40" fill="#2563eb"/>
+  <rect x="48" y="48" width="96" height="64" rx="12" fill="#1d4ed8"/>
+  <circle cx="96" cy="80" r="16" fill="#60a5fa" opacity="0.5"/>
+  <rect x="76" y="100" width="40" height="8" rx="4" fill="#93c5fd"/>
+  <rect x="82" y="114" width="28" height="6" rx="3" fill="#93c5fd"/>
+  <circle cx="56" cy="56" r="14" fill="#fbbf24"/>
+  <circle cx="56" cy="56" r="9" fill="#f59e0b"/>
+  <text x="56" y="61" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">₽</text>
+  <circle cx="136" cy="56" r="12" fill="#10b981"/>
+  <circle cx="136" cy="56" r="7" fill="#059669"/>
+  <text x="136" y="60" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">+</text>
+</svg>

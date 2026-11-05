@@ -1,0 +1,6 @@
+# Normalize line endings
+* text=auto eol=lf
+*.png binary
+*.svg binary
+*.db binary
+*.pyc binary
