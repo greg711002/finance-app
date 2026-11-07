@@ -1,0 +1,12 @@
+{
+  "name": "finance-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@netlify/database": "2.0.1",
+    "bcryptjs": "3.0.3",
+    "jose": "6.2.15",
+    "pg": "8.23.1"
+  }
+}

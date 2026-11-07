@@ -1,9 +1,21 @@
-# Netlify — статический фронтенд (PWA)
+# Netlify — static SPA (PWA) + serverless API (Node functions over Netlify Database)
 [build]
   command = "cd frontend && npm ci && npm run build"
   publish = "frontend/dist"
 
-# SPA-роутинг: все несуществующие пути → index.html
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  directory = "netlify/functions"
+
+# API: /api/* -> serverless function
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+# SPA routing: everything else -> index.html
 [[redirects]]
   from = "/*"
   to = "/index.html"
